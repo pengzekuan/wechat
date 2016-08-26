@@ -12,7 +12,12 @@
     "prefer-stable" : true,
     "autoload": {
         "psr-4": {
-            "Peter\\Wechat\\": "src/"
+            "Peter\\Wechat\\": "src/Wechat"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Peter\\Wechat\\Test\\": "tests/"
         }
     },
     "repositories": [
@@ -21,5 +26,8 @@
             "url": "https://github.com/pengzekuan/wechat.git"
         }
     ],
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    }
 }
