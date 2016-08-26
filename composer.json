@@ -1,12 +1,18 @@
 {
     "name": "pengzekuan/wechat",
     "description": "package for wechat develop",
-    "type": "project",
+    "license": "MIT",
     "authors": [
         {
             "name": "peter",
             "email": "pengzekuan@gmail.com"
         }
     ],
+    "minimum-stability" : "dev",
+    "autoload": {
+        "psr-4": {
+            "Peter\\Wechat\\": "src/"
+        }
+    },
     "require": {}
 }
