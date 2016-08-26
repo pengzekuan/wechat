@@ -1,0 +1,12 @@
+{
+    "name": "peter/wechat",
+    "description": "package for wechat develop",
+    "type": "project",
+    "authors": [
+        {
+            "name": "peter",
+            "email": "pengzekuan@gmail.com"
+        }
+    ],
+    "require": {}
+}
