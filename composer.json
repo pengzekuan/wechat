@@ -14,5 +14,11 @@
             "Peter\\Wechat\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pengzekuan/wechat.git"
+        }
+    ],
     "require": {}
 }
